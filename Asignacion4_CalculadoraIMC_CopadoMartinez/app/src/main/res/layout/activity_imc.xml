@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImcActivity">
+
+    <!-- Imagen -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/unnamed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- EditText para kilos -->
+    <EditText
+        android:id="@+id/kilos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Peso en kg (Ej: 70.5)"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- EditText para estatura -->
+    <EditText
+        android:id="@+id/estatura"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Estatura en metros (Ej: 1.75)"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/kilos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón Calcular -->
+    <Button
+        android:id="@+id/btn_cal_imc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/estatura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu IMC aparecerá aquí"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/btn_cal_imc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría IMC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tv_resultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
