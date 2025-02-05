@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Práctica4TheCheezerygetStartedYLogin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/very_purple</item>
+        <item name="colorPrimaryVariant">@color/less_purple</item>
+        <item name="colorOnPrimary">@color/dusty_white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pinky</item>
+        <item name="colorSecondaryVariant">@color/last_pink</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+</resources>
