@@ -17,17 +17,25 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var adapter: PeliculaAdapter
+    private lateinit var movieAdapter: PeliculaAdapter
+    private lateinit var seriesAdapter: PeliculaAdapter
+
     var peliculas = ArrayList<Pelicula>()
+    var series = ArrayList<Pelicula>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         cargarPeliculas()
 
-        adapter = PeliculaAdapter(this, peliculas)
-        val gridView = findViewById<GridView>(R.id.gridView)
-        gridView.adapter = adapter
+        movieAdapter = PeliculaAdapter(this, peliculas)
+        val gridViewMovies = findViewById<GridView>(R.id.gridViewMovies)
+        gridViewMovies.adapter = movieAdapter
+
+
+        seriesAdapter = PeliculaAdapter(this, series)
+        val gridViewSeries = findViewById<GridView>(R.id.gridViewSeries)
+        gridViewSeries.adapter = seriesAdapter
     }
     private fun cargarPeliculas(){
 
@@ -56,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 "He is searching for a super energy source called &quot;The Galaxy&quot;. Now, Agents J and K must\n" +
                 "stop the bug before it can escape with the galaxy."))
         peliculas.add(Pelicula("Toy Story",R.drawable.toystory,R.drawable.toystoryheader,"Toy Story is about the &#39;secret life of toys&#39; when people are not around. When Buzz\n" +
-                "Lightyear, a space-ranger, takes Woody&#39;s place as Andy&#39;s favorite toy, Woody doesn&#39;t like\n" +
+                "Lightyear, a space-ranger, takes Woody&#39;s place as Andy&#39;s favorite toy, Woody doesnt like\n" +
                 "the situation and gets into a fight with Buzz. Accidentaly Buzz falls out the window and\n" +
                 "Woody is accused by all the other toys of having killed him. He has to go out of the house\n" +
                 "to look for him so that they can both return to Andys room. But while on the outside they\n" +
@@ -72,6 +80,43 @@ class MainActivity : AppCompatActivity() {
                 "could be the perfect crime. But no amount of careful planning or expertise can prepare the\n" +
                 "team for the dangerous enemy that seems to predict their every move. An enemy that only\n" +
                 "Cobb could have seen coming."))
+
+        series.add(Pelicula("Dr. House",R.drawable.drhouse,R.drawable.drhouse,"The series follows the life of anti-social, pain killer addict, witty and arrogant medical doctor Gregory\n" +
+                "House (Hugh Laurie) with only half a muscle in his right leg. He and his team of medical doctors try\n" +
+                "to cure complex and rare diseases from very ill ordinary people in the United States of America."))
+        series.add(Pelicula("Smallville",R.drawable.smallville,R.drawable.suitsheader,"The numerous miraculous rescues by the local wonder boy Clark have aroused suspicions amongst\n" +
+                "colonials of Smallville. Interestingly, the boy has managed to downplay his acts of various heroic\n" +
+                "egresses in the past. They say he&#39;s either too fast or has a penchant for finding trouble. He was\n" +
+                "found by Martha and Jonathan Kent on the day of the Meteor Shower, and subsequently adopted.\n" +
+                "Clark&#39;s friend Lex Luthor, the only heir of Luthorcorp, has been secretly investigating grounds for\n" +
+                "Clark&#39;s outlandish valor. However, on the face of it, Clark just seems a normal boy who&#39;s slightly\n" +
+                "more secretive than usual."))
+        series.add(Pelicula("Dr. Who",R.drawable.drwho,R.drawable.drwhoheader,"Traveling across time and space, the immortal time-lord known as &#39;The Doctor&#39; travels across the\n" +
+                "universe with his many companions and his loyal shape-shifting space-ship: The TARDIS. The\n" +
+                "Doctor faces many threats across many generations: from The Daleks, The Cybermen and his time-\n" +
+                "lord adversary The Master to the sinister Davros, creator of The Daleks."))
+        series.add(Pelicula("Bones",R.drawable.bones,R.drawable.bonesheader,"Dr. Temperance Brennan is a brilliant, but lonely, anthropologist whom is approached by an\n" +
+                "ambitious FBI agent, named Seely Booth, to help the bureau solve a series of unsolved crimes by\n" +
+                "identifying the long-dead bodies of missing persons by their bone structure. But both Agent Booth\n"+
+                "and Dr. Brennan and her team come up again a variety of interference from red tape, corruption,\n" +
+                "and local noncooperation."))
+        series.add(Pelicula("Suits",R.drawable.suits,R.drawable.suitsheader,"While running from a drug deal gone bad, brilliant young college dropout Mike Ross slips into a job\n" +
+                "interview with one of New York City&#39;s best legal closers, Harvey Specter. Tired of cookie-cutter law-\n" +
+                "school grads, Harvey takes a gamble by hiring Mike on the spot after recognizing his raw talent and\n" +
+                "photographic memory. Mike and Harvey are a winning team. Although Mike is a genius, he still has\n" +
+                "a lot to learn about law; and while Harvey might seem like an emotionless, cold-blooded shark,\n" +
+                "Mike&#39;s sympathy and concern for their cases and clients will help remind Harvey why he went into\n" +
+                "law in the first place. Mike&#39;s other allies in the office include the firm&#39;s best paralegal Rachel and\n" +
+                "Harvey&#39;s no-nonsense assistant Donna. Proving to be an irrepressible duo and invaluable to the\n" +
+                "practice, Mike and Harvey must keep their secret from everyone including managing partner\n" +
+                "Jessica and Harvey&#39;s archnemesis Louis, who seems intent on making Mike&#39;s life as difficult as\n" +
+                "possible."))
+        series.add(Pelicula("Friends",R.drawable.friends,R.drawable.friendsheader,"Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are\n" +
+                "six 20 something year-olds, living off of one another in the heart of New York City. Over the course\n" +
+                "of ten years, this average group of buddies goes through massive mayhem, family trouble, past and\n" +
+                "future romances, fights, laughs, tears and surprises as they learn what it really means to be a\n" +
+                "friend."))
+
     }
 
     class PeliculaAdapter(private val context: Context, private val peliculas: ArrayList<Pelicula>) : BaseAdapter() {
@@ -94,7 +139,7 @@ class MainActivity : AppCompatActivity() {
 
             if (convertView == null) {
                 val inflater = LayoutInflater.from(context)
-                view = inflater.inflate(R.layout.pelicula, parent, false) // Asegúrate de que `pelicula.xml` tiene los IDs correctos
+                view = inflater.inflate(R.layout.pelicula, parent, false)
                 holder = ViewHolder(view)
                 view.tag = holder
             } else {
@@ -106,13 +151,25 @@ class MainActivity : AppCompatActivity() {
             holder.imagen.setImageResource(pelicula.img)
             holder.titulo.text = pelicula.titulo
 
+            view.setOnClickListener {
+                val intent = Intent(context, DetallePelicula::class.java).apply {
+                    putExtra("titulo", pelicula.titulo)
+                    putExtra("image", pelicula.img)
+                    putExtra("header", pelicula.header)
+                    putExtra("sinopsis", pelicula.sinopsis)
+                }
+                context.startActivity(intent)
+            }
+
             return view
         }
 
+        // ViewHolder para optimizar rendimiento
         private class ViewHolder(view: View) {
-            val imagen: ImageView = view.findViewById(R.id.pelicula) // ID correcto
-            val titulo: TextView = view.findViewById(R.id.tv_nombre_pelicula) // Agrega este ID a `pelicula.xml`
+            val imagen: ImageView = view.findViewById(R.id.pelicula)
+            val titulo: TextView = view.findViewById(R.id.tv_nombre_pelicula)
         }
     }
+
 
 }

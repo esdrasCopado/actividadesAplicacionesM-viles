@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetallePelicula">
+    tools:context=".DetallePelicula"
+    android:background="@color/fondo">
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
             android:id="@+id/peliculaImagenDetalle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scaleType="centerInside"
             android:layout_gravity="center"
             android:src="@drawable/bones"/>
         <TextView
@@ -24,14 +26,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bones"
-            android:textSize="20sp"
-            android:gravity="center"/>
+            android:textSize="25sp"
+            android:gravity="left"
+            android:textColor="@color/amarillo_boton"/>
         <TextView
             android:id="@+id/peliculaTextoDetalle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="a qui va a ser la descripcion de la pelicula"
-            android:textSize="20sp"/>
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
     
