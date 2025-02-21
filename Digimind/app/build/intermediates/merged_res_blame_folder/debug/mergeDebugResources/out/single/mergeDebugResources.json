@@ -16,12 +16,12 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable_baseline_note_add_24.xml.flat",
@@ -60,8 +60,8 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "esdras.jahir.digimind.app-debug-49:/layout_fragment_home.xml.flat",
-        "source": "esdras.jahir.digimind.app-main-51:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\layout_task_view.xml.flat",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\task_view.xml"
     },
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\layout_fragment_dashboard.xml.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable-xxxhdpi\\logobrain.png"
     },
     {
-        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable-xxxhdpi_icon_material_note_add.png.flat",
-        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable-xxxhdpi\\icon_material_note_add.png"
-    },
-    {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable-xxxhdpi_icon_material_note_add.png.flat",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable-xxxhdpi\\icon_material_note_add.png"
     },
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -132,6 +132,10 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable-hdpi\\logobrain.png"
     },
     {
+        "merged": "esdras.jahir.digimind.app-debug-49:/layout_fragment_dashboard.xml.flat",
+        "source": "esdras.jahir.digimind.app-main-51:/layout/fragment_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\layout_fragment_notifications.xml.flat",
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\fragment_notifications.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable_fondo.xml.flat",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\drawable\\fondo.xml"
     },
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-debug-49:\\drawable-ldpi_material_note_add.png.flat",

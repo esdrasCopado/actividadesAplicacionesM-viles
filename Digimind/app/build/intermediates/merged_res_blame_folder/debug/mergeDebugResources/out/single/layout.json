@@ -4,6 +4,10 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\activity_main.xml"
     },
     {
+        "merged": "esdras.jahir.digimind.app-mergeDebugResources-48:/layout/fragment_dashboard.xml",
+        "source": "esdras.jahir.digimind.app-main-51:/layout/fragment_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-mergeDebugResources-48:\\layout\\fragment_dashboard.xml",
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\fragment_dashboard.xml"
     },
@@ -12,12 +16,12 @@
         "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\recordatorio.xml"
     },
     {
-        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-mergeDebugResources-48:\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-mergeDebugResources-48:\\layout\\task_view.xml",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\task_view.xml"
     },
     {
-        "merged": "esdras.jahir.digimind.app-mergeDebugResources-48:/layout/fragment_home.xml",
-        "source": "esdras.jahir.digimind.app-main-51:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-mergeDebugResources-48:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-main-51:\\layout\\fragment_notifications.xml"
     },
     {
         "merged": "C:\\Users\\copad\\.gradle\\daemon\\8.10.2\\esdras.jahir.digimind.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
