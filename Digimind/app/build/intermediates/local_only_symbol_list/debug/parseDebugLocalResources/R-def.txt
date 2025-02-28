@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color Gray
 color black
+color blue
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -15,6 +16,7 @@ dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable baseline_note_add_24
 drawable baseline_notes_24
+drawable fondo
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -26,7 +28,17 @@ drawable logobrain
 drawable material_note_add
 drawable material_speaker_notes
 drawable sharp_add_notes_24
+id btn_save
+id btn_time
+id checkFriday
+id checkMonday
+id checkSaturday
+id checkSunday
+id checkThursday
+id checkTuesday
+id checkWednesday
 id container
+id et_task
 id gridView
 id mobile_navigation
 id nav_host_fragment_activity_main
@@ -37,6 +49,9 @@ id navigation_notifications
 id textDashboard
 id text_dashboard
 id text_notifications
+id tv_days
+id tv_time
+id tv_title
 id txtDiasRecordatorio
 id txtNombreRecordatorio
 id txtTiempoRecordatorio
@@ -45,14 +60,21 @@ layout fragment_dashboard
 layout fragment_home
 layout fragment_notifications
 layout recordatorio
+layout task_view
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
+string At_what_time
+string Set_time
+string _17_00
 string app_name
+string everyday
 string friday
 string monday
+string practice
 string saturday
+string save
 string sunday
 string take_my_pill
 string thursday

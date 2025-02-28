@@ -1395,6 +1395,7 @@ int color background_floating_material_light 0x7f05001f
 int color background_material_dark 0x7f050020
 int color background_material_light 0x7f050021
 int color black 0x7f050022
+int color blue 0x7f0502f1
 int color bright_foreground_disabled_material_dark 0x7f050023
 int color bright_foreground_disabled_material_light 0x7f050024
 int color bright_foreground_inverse_material_dark 0x7f050025
@@ -2987,6 +2988,7 @@ int drawable design_ic_visibility 0x7f070085
 int drawable design_ic_visibility_off 0x7f070086
 int drawable design_password_eye 0x7f070087
 int drawable design_snackbar_background 0x7f070088
+int drawable fondo 0x7f0700f1
 int drawable ic_arrow_back_black_24 0x7f070089
 int drawable ic_call_answer 0x7f07008a
 int drawable ic_call_answer_low 0x7f07008b
@@ -3193,6 +3195,8 @@ int id bounce 0x7f080062
 int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
+int id btn_save 0x7f08020d
+int id btn_time 0x7f08020c
 int id buttonPanel 0x7f080066
 int id cache_measures 0x7f080067
 int id callMeasure 0x7f080068
@@ -3206,6 +3210,13 @@ int id center_vertical 0x7f08006f
 int id chain 0x7f080070
 int id chain2 0x7f080071
 int id chains 0x7f080072
+int id checkFriday 0x7f080211
+int id checkMonday 0x7f080212
+int id checkSaturday 0x7f080213
+int id checkSunday 0x7f080214
+int id checkThursday 0x7f080215
+int id checkTuesday 0x7f080216
+int id checkWednesday 0x7f080217
 int id checkbox 0x7f080073
 int id checked 0x7f080074
 int id chronometer 0x7f080075
@@ -3274,6 +3285,7 @@ int id end 0x7f0800b3
 int id endToStart 0x7f0800b4
 int id enterAlways 0x7f0800b5
 int id enterAlwaysCollapsed 0x7f0800b6
+int id et_task 0x7f080218
 int id exitUntilCollapsed 0x7f0800b7
 int id expand_activities_button 0x7f0800b8
 int id expanded_menu 0x7f0800b9
@@ -3586,6 +3598,9 @@ int id transition_position 0x7f0801eb
 int id transition_scene_layoutid_cache 0x7f0801ec
 int id transition_transform 0x7f0801ed
 int id triangle 0x7f0801ee
+int id tv_days 0x7f08020e
+int id tv_time 0x7f08020f
+int id tv_title 0x7f080210
 int id txtDiasRecordatorio 0x7f0801ef
 int id txtNombreRecordatorio 0x7f0801f0
 int id txtTiempoRecordatorio 0x7f0801f1
@@ -3811,11 +3826,15 @@ int layout select_dialog_item_material 0x7f0b006c
 int layout select_dialog_multichoice_material 0x7f0b006d
 int layout select_dialog_singlechoice_material 0x7f0b006e
 int layout support_simple_spinner_dropdown_item 0x7f0b006f
+int layout task_view 0x7f0b0070
 int menu bottom_nav_menu 0x7f0d0000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int navigation mobile_navigation 0x7f0f0000
 int plurals mtrl_badge_content_description 0x7f100000
+int string At_what_time 0x7f1100b6
+int string Set_time 0x7f1100b7
+int string _17_00 0x7f1100b8
 int string abc_action_bar_home_description 0x7f110000
 int string abc_action_bar_up_description 0x7f110001
 int string abc_action_menu_overflow_description 0x7f110002
@@ -3866,6 +3885,7 @@ int string clear_text_end_icon_content_description 0x7f11002e
 int string dest_title 0x7f11002f
 int string error_a11y_label 0x7f110030
 int string error_icon_content_description 0x7f110031
+int string everyday 0x7f1100b9
 int string exposed_dropdown_menu_content_description 0x7f110032
 int string fab_transformation_scrim_behavior 0x7f110033
 int string fab_transformation_sheet_behavior 0x7f110034
@@ -3980,7 +4000,9 @@ int string path_password_eye 0x7f1100a0
 int string path_password_eye_mask_strike_through 0x7f1100a1
 int string path_password_eye_mask_visible 0x7f1100a2
 int string path_password_strike_through 0x7f1100a3
+int string practice 0x7f1100ba
 int string saturday 0x7f1100a4
+int string save 0x7f1100bb
 int string search_menu_title 0x7f1100a5
 int string searchbar_scrolling_view_behavior 0x7f1100a6
 int string searchview_clear_text_content_description 0x7f1100a7

@@ -1396,6 +1396,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2988,6 +2989,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fondo
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3194,6 +3196,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_save
+id btn_time
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3207,6 +3211,13 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkFriday
+id checkMonday
+id checkSaturday
+id checkSunday
+id checkThursday
+id checkTuesday
+id checkWednesday
 id checkbox
 id checked
 id chronometer
@@ -3275,6 +3286,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id et_task
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3587,6 +3599,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_days
+id tv_time
+id tv_title
 id txtDiasRecordatorio
 id txtNombreRecordatorio
 id txtTiempoRecordatorio
@@ -3812,11 +3827,15 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout task_view
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
+string At_what_time
+string Set_time
+string _17_00
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3867,6 +3886,7 @@ string clear_text_end_icon_content_description
 string dest_title
 string error_a11y_label
 string error_icon_content_description
+string everyday
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -3981,7 +4001,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string practice
 string saturday
+string save
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

@@ -2,6 +2,7 @@
 <resources>
     <color name="Gray">#A39F9F</color>
     <color name="black">#FF000000</color>
+    <color name="blue">#0d5c9c</color>
     <color name="colorAccent">#C875BA</color>
     <color name="colorPrimary">#00ACAC</color>
     <color name="colorPrimaryDark">#018787</color>
@@ -13,10 +14,16 @@
     <color name="white">#FFFFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="At_what_time">At what time?</string>
+    <string name="Set_time">Set time</string>
+    <string name="_17_00">17:00</string>
     <string name="app_name">Digimind</string>
+    <string name="everyday">Everyday</string>
     <string name="friday">Friday</string>
     <string name="monday">Monday</string>
+    <string name="practice">Practice</string>
     <string name="saturday">Saturday</string>
+    <string name="save">save</string>
     <string name="sunday">Sunday</string>
     <string name="take_my_pill">take my pill</string>
     <string name="thursday">Thursday</string>
